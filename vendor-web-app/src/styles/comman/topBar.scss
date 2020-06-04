@@ -1,0 +1,23 @@
+// smart phones
+@media screen and (max-width: 768px) {
+  .top-bar-wrapper{
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+// tablets device
+@media screen and (max-width: 992px) {
+  .top-bar-wrapper{
+    text-align: center;
+    font-size: 50px;
+  }
+}
+
+// larger device
+@media screen and (min-width: 992px) {
+  .top-bar-wrapper{
+    text-align: center;
+    font-size: 80px;
+  }
+}
