@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import '../../styles/Dashboard/dashboardContent.css';
 import SearchBar from "../Comman/SearchBar";
 import ShopListTable from "../Shop/ShopListTable";
+import LocationMap from "../Map/LocationMap";
 
 class DashboardContent extends Component {
     render() {
@@ -25,6 +26,10 @@ class DashboardContent extends Component {
                     <ShopListTable/>
                 </div>
 
+                {/* map */}
+                <div className='map-wrapper'>
+                    <LocationMap/>
+                </div>
             </div>
         );
     }
